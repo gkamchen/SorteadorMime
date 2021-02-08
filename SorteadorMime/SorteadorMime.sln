@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SorteadorMime", "SorteadorMime.csproj", "{2ECBE67A-58E0-425D-9D50-4412C73AE8E0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_SorteadorMime", "..\Instalador_SorteadorMime\Instalador_SorteadorMime.vdproj", "{A8919C48-C768-4491-BA35-0F2A65AF26C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECBE67A-58E0-425D-9D50-4412C73AE8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECBE67A-58E0-425D-9D50-4412C73AE8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECBE67A-58E0-425D-9D50-4412C73AE8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECBE67A-58E0-425D-9D50-4412C73AE8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8919C48-C768-4491-BA35-0F2A65AF26C7}.Debug|Any CPU.ActiveCfg = Debug
+		{A8919C48-C768-4491-BA35-0F2A65AF26C7}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD873B03-C63D-4B4B-9A8D-D9D8C4A2E6D4}
+	EndGlobalSection
+EndGlobal
