@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarregaExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarregaExcel.Designer.cs">
+      <DependentUpon>CarregaExcel.cs</DependentUpon>
+    </Compile>
     <Compile Include="SorteadorMime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CarregaExcel.resx">
+      <DependentUpon>CarregaExcel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SorteadorMime.resx">
       <DependentUpon>SorteadorMime.cs</DependentUpon>
     </EmbeddedResource>

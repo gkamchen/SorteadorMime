@@ -17,6 +17,7 @@ namespace SorteadorMime
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SorteadorMime());
+            //Application.Run(new CarregaExcel());
         }
     }
 }
